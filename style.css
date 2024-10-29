@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #125E8A;
     color: #333;
     display: flex;
@@ -7,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Roboto", sans-serif; /* Cambié serif a sans-serif */
 }
 
 .weather-app {
