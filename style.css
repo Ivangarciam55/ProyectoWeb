@@ -7,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "Roboto", sans-serif; /* Cambié serif a sans-serif */
+    transition: background-color 0.5s ease, background-image 0.5s ease;
 }
 
 .weather-app {
@@ -16,6 +17,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: background-color 0.5s ease;
 }
 
 header h1 {
@@ -24,6 +26,7 @@ header h1 {
 
 #weather-info {
     margin: 20px 0;
+    font-size: 18px;
 }
 
 #location-input {
@@ -42,4 +45,9 @@ header h1 {
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.weather-app i {
+    font-size: 50px;
+    margin-bottom: 10px;
 }
